@@ -1,0 +1,346 @@
+﻿body {
+    background-image: url(../images/pattern29.png);
+    color: #ffffff;
+    font: 14px/25px Arial, Helvetica, sans-serif;
+    background-attachment: fixed;
+}
+
+.headercolor {
+    background: #141414;
+}
+
+.margin-top {
+    margin-top: 40px;
+    height: 120px;
+}
+
+.imgtop {
+    margin-top: 30px;
+}
+
+
+
+.mgpd {
+    margin-right: -2px;
+    margin-left: -2px;
+}
+
+.navbar-default {
+    background: #ED145B;
+    border: none;
+    margin: 0;
+    border-radius: 0;
+}
+
+nav ul li {
+    width: 140px;
+    text-align: center;
+}
+
+    nav ul li a {
+        color: white;
+    }
+
+        nav ul li a:hover {
+            color: #ddd;
+        }
+
+.navbar-default .navbar-brand:focus, .navbar-default .navbar-brand:hover {
+    color: #5e5e5e;
+    background-color: transparent;
+}
+
+.navbar-default .navbar-text {
+    color: #777;
+}
+
+.navbar-default .navbar-nav > li > a {
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 18px;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+    .navbar-default .navbar-nav > li > a:focus, .navbar-default .navbar-nav > li > a:hover {
+        color: #ffffff;
+        opacity: 0.60000002384185791015625;
+    }
+
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:focus, .navbar-default .navbar-nav > .active > a:hover {
+    color: #555;
+    background-color: #e7e7e7;
+}
+
+.navbar-default .navbar-nav > .disabled > a, .navbar-default .navbar-nav > .disabled > a:focus, .navbar-default .navbar-nav > .disabled > a:hover {
+    color: #ccc;
+    background-color: transparent;
+}
+
+.navbar-default .navbar-toggle {
+    border-color: #ddd;
+}
+
+    .navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
+        background-color: #ddd;
+    }
+
+    .navbar-default .navbar-toggle .icon-bar {
+        background-color: #888;
+    }
+
+.navbar-default .navbar-collapse, .navbar-default .navbar-form {
+    border-color: #e7e7e7;
+}
+
+.navbar-default .navbar-nav > .open > a, .navbar-default .navbar-nav > .open > a:focus, .navbar-default .navbar-nav > .open > a:hover {
+    color: #555;
+}
+
+.nav > li > a:focus, .nav > li > a:hover {
+    text-decoration: none;
+    background: none;
+}
+
+p {
+    text-align: justify;
+}
+
+.box-shadow {
+    background-color: white;
+    padding: 4px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 8px 0 rgba(0, 0, 0, 0.2), 0 2px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.table > tbody > tr > td, .table > tbody > tr > th, .table > tfoot > tr > td, .table > tfoot > tr > th, .table > thead > tr > td, .table > thead > tr > th {
+    padding: 4px;
+    line-height: 1.42857143;
+    vertical-align: top;
+    border-top: 1px solid #ddd;
+}
+
+p {
+    text-align: justify;
+    color: #888;
+}
+
+.box {
+    background: #ED145B;
+    box-shadow: 10px 10px 8px 0 rgba(0, 0, 0, 0.2), 0 2px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+a {
+    color: white;
+}
+
+    a:hover {
+        color: white;
+    }
+
+.bc {
+    background-color: #141414;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+}
+
+.white {
+    color: white;
+}
+
+h1 {
+    color: #ED145B;
+}
+
+.boder-buttom {
+    border-bottom: solid 2px white;
+}
+
+
+@media (min-width: 1200px) {
+    .container {
+        max-width: 1050px;
+    }
+}
+
+.topmargin {
+    margin-top: 21px;
+}
+
+.MGPD {
+    padding-right: 4px;
+    padding-left: 4px;
+}
+
+.img-border {
+    padding: 10px;
+    background-color: #141414;
+}
+
+.margin-buttom {
+    margin-bottom: 9.7px;
+    font-size: 13px;
+    text-align: justify;
+}
+
+.mgbuttom {
+    margin-top: 20px;
+}
+
+.border1 {
+    border: solid 15px #141414;
+}
+
+.fotterback {
+    background-color: #141414;
+}
+
+.navi1 ul li {
+    list-style: none;
+    border-bottom: thin 0.6px #888;
+    margin-bottom: 5px;
+    padding: 0px;
+}
+
+    .navi1 ul li a {
+        border-bottom: dotted 1px #888;
+        text-decoration: none;
+    }
+
+.font {
+    font-size: 22px;
+    margin-bottom: 10px;
+    border-bottom: 2px solid white;
+}
+
+.fotterbackcolor {
+    background-color: #5e5e5e;
+    padding-bottom:15px;
+}
+
+.fotterdownbackcolor {
+    padding-bottom: 10px;
+    padding-top: 10px;
+    background-color: #141414;
+    padding-bottom: 10px;
+}
+
+.Faceb ul {
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+    .Faceb ul li {
+        float: left;
+        margin: 0 4px 0 4px;
+    }
+
+        .Faceb ul li a {
+            width: 26px;
+            height: 26px;
+            background: url(../images/face.png) left top no-repeat;
+            display: block;
+            transition: all 1.5s ease;
+            margin: 20px 0px 0 0px;
+        }
+
+            .Faceb ul li a:hover {
+                background-position: left bottom;
+                 transform: translateX(-15px);
+            }
+
+
+            .Faceb ul li a.twit {
+                width: 26px;
+                height: 26px;
+                display: block;
+                background: url(../images/twit.png) left top no-repeat;
+                transition: all 1s ease;
+                
+            }
+
+                .Faceb ul li a.twit:hover {
+                    background-position: left bottom;
+                    transform: translateX(-15px);
+                }
+
+            .Faceb ul li a.wi {
+                width: 26px;
+                height: 26px;
+                display: block;
+                background: url(../images/wi.png) left top no-repeat;
+                transition: all 1s ease;
+                
+            }
+
+                .Faceb ul li a.wi:hover {
+                    background-position: left bottom;
+                    transform: translateY(-15px);
+                }
+
+            .Faceb ul li a.tube {
+                width: 26px;
+                height: 26px;
+                display: block;
+                background: url(../images/tube.png) left top no-repeat;
+                transition: all 1s ease;
+            }
+
+                .Faceb ul li a.tube:hover {
+                    background-position: left bottom;
+                    transform: translateX(15px);
+                }
+
+.img-border2 {
+    padding: 20px;
+    background-color:rgba(0, 0, 0, 0.19);
+}
+.fonth2 {
+    font-size:14px;
+}
+.margin-buttom1 {
+    margin-bottom: 6.4px;
+    font-size: 13px;
+    text-align: justify;
+}
+.margin-buttom2 {
+    margin-bottom: 10.3px;
+    font-size: 13px;
+    text-align: justify;
+}
+.margin-buttom3 {
+    margin-bottom: 8.7px;
+    font-size: 13px;
+    text-align: justify;
+}
+.margin-buttom4 {
+    margin-bottom: 10.9px;
+    font-size: 13px;
+    text-align: justify;
+}
+.margin-buttom5 {
+    margin-bottom:0.5px;
+    font-size: 13px;
+    text-align: justify;
+}
+.jumbotron6 {
+padding : 20px;
+background-color : #fff;
+box-shadow : 0 0 30px #000 inset;
+}
+.jumbotron8 {
+padding : 10px;
+margin-bottom : 15px;
+margin-top : 15px;
+background-color:#777;
+
+border-radius : 5px;
+}
+.map {
+ width:100%; height:400px;
+}
+.img-border3 {
+    padding: 10px;
+    background-color:#141414;
+}
